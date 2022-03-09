@@ -2,6 +2,7 @@ package jm.task.core.jdbc.model;
 
 import javax.persistence.*;
 
+@Entity
 @Table
 public class User {
     @Id
@@ -70,4 +71,3 @@ public class User {
         this.age = age;
     }
 }
-
